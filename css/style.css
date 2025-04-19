@@ -1,0 +1,109 @@
+/* External CSS for Lost and Found System */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header, footer {
+    background-color: #1e40af;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea,
+form input[type="date"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background-color: #1e40af;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #374ac1;
+}
+
+.error {
+    color: red;
+    margin-top: 0.5rem;
+}
+
+.success {
+    color: green;
+    margin-top: 0.5rem;
+}
+
+.item-list {
+    margin-top: 1rem;
+}
+
+.item {
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 0;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.item-meta {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
